@@ -7,8 +7,8 @@ import logoImg from '../../assets/images/logo.svg'
 import './styles.css'
 
 interface PageHeaderProps {
-    title: String;
-    optionalTitle?: String;
+    title: string;
+    description?: string;
 }
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => {
